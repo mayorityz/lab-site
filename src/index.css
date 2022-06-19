@@ -1,0 +1,776 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Poppins";
+}
+
+.logo {
+  font-size: 24;
+  font-family: "Playfair Display";
+  font-weight: 700;
+}
+
+#overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 2;
+  cursor: pointer;
+}
+
+.my-3 {
+  margin: 30px 0 !important;
+}
+
+.text-warning,
+.warning {
+  color: "#F9B122" !important;
+}
+
+.btn-warning {
+  background-color: "#F9B122";
+}
+
+.nav-link {
+  color: #fff !important;
+  margin: 5px 8px;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.nav-link:active,
+.nav-link:focus-visible,
+.nav-link:hover,
+.nav-link:focus {
+  background-color: #f9b122;
+}
+
+.home-header {
+  /* font-family: "Open Sans"; */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 68px;
+  line-height: 93px;
+  text-align: center;
+  color: #fff;
+  text-transform: capitalize;
+  /* padding: 150px 0; */
+  padding: 130px 0 100px 0;
+}
+
+.home-section {
+  background-image: url("../public/images/blockedit.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.home-btn {
+  /* font-family: "Open Sans"; */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #fff;
+  padding: 22px;
+  margin-bottom: 100px;
+  width: 50%;
+  border-radius: 8;
+  border: '1px solid #f9b122';
+}
+
+/* .card {
+  height: 450px;
+} */
+
+.whatweareabout-header,
+.startups-header,
+.message-header {
+  margin: 100px 0px 5px 0px;
+  padding: 20px;
+}
+
+.whatweareabout-header h2,
+.startups-header h2,
+.message-header h2 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  color: #19181a;
+}
+
+.whatweareabout-header h1,
+.startups-header h1,
+.message-header h1 {
+  font-weight: 800;
+  font-size: 62px;
+  line-height: 84px;
+  color: rgba(0, 0, 0, 0.08);
+}
+
+.whatweareabout-content h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  color: #19181a;
+}
+
+.whatweareabout-content p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #19181a;
+}
+
+.whatweareabout-content img {
+  width: 100%;
+}
+
+.vision-img {
+  width: 100%;
+  height: 602;
+}
+
+.vision-header,
+.mission-header {
+  font-weight: 800;
+  font-size: 62px;
+  line-height: 84px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.15);
+}
+
+.missionvisionpic {
+  height: "100%";
+  width: "100%";
+}
+
+.missionvisionpic img {
+  width: 100%;
+  height: 602;
+}
+
+.vision-content,
+.mission-content {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+}
+
+.jumbotron {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  color: #fff;
+  padding: 40px 0;
+}
+
+.startup-content h4 {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 68px;
+  color: #187754;
+  font-style: italic;
+}
+
+.startup-content P {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #000000;
+  padding: 5px 20px;
+}
+
+.join {
+  font-weight: 800;
+  font-size: 62px;
+  line-height: 84px;
+  color: rgba(0, 0, 0, 0.08);
+  margin: 30px 10px;
+  text-align: center;
+}
+
+.join-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #19181a;
+}
+
+.joinimg {
+  height: 95px;
+  width: 100px;
+}
+
+.form-control {
+  padding: 0px 25px !important;
+  border: 1px solid #c4c4c4;
+}
+
+.form-button {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 32px;
+  width: 50%;
+  border-radius: 8px;
+  padding: 15px 60px;
+}
+.product{
+ background-image: url('../public/images/afrolusioncomingsoon1.jpg');
+ background-size: cover;
+ height: 300px;
+ width: 100%;
+}
+.product2{
+  background-image: url('../public/images/estatecomingsoon.jpg');
+ background-size: cover;
+}
+
+.company a {
+  text-decoration: none;
+  color: #19181a;
+  font-style: italic;
+  margin: 20px 0;
+}
+
+::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #1f1f1f;
+}
+
+.format {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  color: #000000;
+}
+.afrodiety-container{
+  background-image: url("../public/images/afrolusioncomingsoon1.jpg");
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+.estate-container{
+  background-image: url("../public/images/estatecomingsoon.jpg");
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+footer {
+  height: 500px;
+  background: #21293c;
+  color: #fff;
+}
+
+.footer-header h5 {
+  text-align: start;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.footer-content p {
+  text-align: start;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 28px;
+}
+
+.footer-content ul {
+  text-align: start;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-content a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+}
+
+.copyright {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  color: rgba(255, 255, 255, 0.8);
+  padding: 28px 0 15px 0;
+  display: inline-block;
+}
+
+.copyright-line {
+  color: #fff;
+  line-height: 12px;
+  margin-top: 30px;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ffc107;
+  border-radius: 2px;
+}
+
+/* //scroll to top */
+.top-to-btm {
+  position: relative;
+}
+
+.icon-position {
+  position: fixed;
+  bottom: 40px;
+  right: 25px;
+  z-index: 20;
+}
+
+.icon-style {
+  background-color: #1f1f1f;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  color: #f9b122;
+  cursor: pointer;
+  animation: movebtn 3s ease-in-out infinite;
+  transition: all 0.5s ease-in-out;
+}
+
+.icon-style:hover {
+  animation: none;
+  background: #000000;
+  color: #f9b122;
+  border: 2px solid #19181a;
+}
+
+@keyframes movebtn {
+  0% {
+    transform: translateY(0px);
+  }
+
+  25% {
+    transform: translateY(20px);
+  }
+
+  50% {
+    transform: translateY(0px);
+  }
+
+  75% {
+    transform: translateY(-20px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+/* media queries */
+/* Phone screen */
+@media only screen and (max-width: 600px) {
+
+  /* preloader */
+  .pre-container {
+    position: "relative";
+    width: 100%;
+    height: 100vh;
+  }
+
+  .pre-content {
+    position: "fixed";
+    top: 50%;
+    left: 50%;
+    bottom: 50%;
+    right: 50%;
+    padding-top: 50px;
+    text-align: center;
+  }
+
+  .pre-style {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pre-content h1 {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 3;
+    padding-top: 9px;
+    margin: 0 10px;
+  }
+
+  .loader {
+    height: 20px;
+    width: 20px;
+  }
+
+  .home-header {
+    font-size: 48px;
+    line-height: 63px;
+    text-align: center;
+    padding: 120px 0;
+  }
+
+  .missionvisionpic {
+    height: "100%";
+    width: "100%";
+    padding: 10px;
+  }
+
+  .missionvisionpic img {
+    height: 300px;
+    width: 300px!important;
+  }
+
+  .logo {
+    font-size: 18;
+  }
+
+  .company-name h4 {
+    font-size: 25px;
+  }
+
+  .btn {
+    font-size: 16px;
+    width: 100%;
+  }
+
+  .icon-position {
+    position: absolute;
+    bottom: 40%;
+    right: 55px !important;
+    z-index: 20;
+  }
+
+  .home-section {
+    background-image: url("../public/images/blockedit.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+  }
+
+  .whatweareabout-header,
+  .startups-header,
+  .message-header {
+    margin: 60px 0px 5px 0px;
+    padding: 10px;
+  }
+
+  .whatweareabout-header h2,
+  .startups-header h2,
+  .message-header h2 {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 33px;
+  }
+
+  .whatweareabout-header h1,
+  .startups-header h1,
+  .message-header h1 {
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 44px;
+  }
+.card{
+  height: auto;
+}
+  .home-header {
+    font-size: 38px;
+    line-height: 63px;
+    padding: 130px 0 100px 0;
+  }
+
+  .join {
+    font-size: 32px;
+    line-height: 54px;
+    margin: 20px 10px;
+  }
+
+  .join-text {
+    font-size: 12px;
+    line-height: 22px;
+  }
+
+  .whatweareabout-content p {
+    font-size: 14px;
+    line-height: 26px;
+  }
+
+  .missionvisionpic img {
+    width: 400px;
+    height: 400px;
+  }
+
+  .vision-header,
+  .mission-header {
+    font-size: 32px;
+    /* line-height: 54px; */
+  }
+
+  .vision-content,
+  .mission-content {
+    font-size: 14px;
+    line-height: 35px;
+    padding: 10px;
+  }
+
+  .missionvisionpic {
+    height: "100%";
+    width: "100%";
+  }
+
+  .home-btn {
+    font-size: 14px;
+    line-height: 32px;
+    padding: 16px;
+    margin-bottom: 100px;
+  }
+
+  footer {
+    height: auto;
+  }
+}
+
+/* tablet screen */
+@media only screen and (min-width: 600px) {
+
+
+  /* preloader */
+  .pre-container {
+    position: "relative";
+    width: 100%;
+    height: 100vh;
+  }
+
+  .pre-content {
+    position: "absolute";
+    top: 53%;
+    left: 35%;
+    bottom: 30%;
+    right: 30%;
+    text-align: center;
+    padding-top: 40px;
+  }
+
+  .pre-style {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .pre-content h1 {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 3;
+    padding-top: 9px;
+    margin: 0 10px;
+    
+  }
+
+  .loader {
+    height: 20px;
+    width: 20px;
+  }
+
+  .home-header {
+    font-size: 48px;
+    line-height: 63px;
+    text-align: center;
+    padding: 120px 0;
+  }
+
+  .icon-position {
+    position: fixed;
+    bottom: 40px;
+    right: 25px !important;
+    z-index: 20;
+  }
+
+  .whatweareabout-header,
+  .startups-header,
+  .message-header {
+    margin: 50px 0px 5px 0px;
+    padding: 10px;
+  }
+
+  .whatweareabout-header h2,
+  .startups-header h2,
+  .message-header h2 {
+    font-size: 35px;
+    line-height: 20px;
+  }
+
+  .whatweareabout-header h1,
+  .startups-header h1,
+  .message-header h1 {
+    font-size: 42px;
+    line-height: 44px;
+  }
+
+  .join {
+    font-size: 42px;
+    line-height: 44px;
+    margin: 20px 10px;
+  }
+
+  .join-text {
+    font-size: 14px;
+    line-height: 12px;
+  }
+
+  .whatweareabout-content p {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .vision-header,
+  .mission-header {
+    font-size: 32px;
+    /* line-height: 44px; */
+  }
+
+  .vision-content,
+  .mission-content {
+    font-size: 14px;
+    line-height: 25px;
+    padding: 10px;
+  }
+
+  .home-section {
+    background-image: url("../public/images/blockedit.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+  }
+
+  .home-btn {
+    font-size: 14px;
+    line-height: 22px;
+    padding: 16px;
+    margin-bottom: 100px;
+  }
+}
+
+/* bigger screens */
+@media only screen and (min-width: 992px) {
+
+  /* preloader */
+  .pre-container {
+    position: "relative";
+    width: 100%;
+    height: 100vh;
+  }
+
+  .pre-content {
+    position: "absolute";
+    top: 43%;
+    left: 35%;
+    bottom: 30%;
+    right: 30%;
+  }
+
+  .pre-style {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .pre-content h1 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 0;
+    padding-top: 9px;
+    margin: 0 10px;
+  }
+
+  .loader {
+    height: 20px;
+    width: 20px;
+  }
+
+  .whatweareabout-header,
+  .startups-header,
+  .message-header {
+    margin: 50px 0px 5px 0px;
+    padding: 10px;
+  }
+
+  .whatweareabout-header h2,
+  .startups-header h2,
+  .message-header h2 {
+    line-height: 40px;
+  }
+
+  .whatweareabout-header h1,
+  .startups-header h1,
+  .message-header h1 {
+    line-height: 64px;
+  }
+
+  .whatweareabout-content h4 {
+    line-height: 28px;
+  }
+
+  .whatweareabout-content p {
+    line-height: 28px;
+  }
+
+  .whatweareabout-content img {
+    width: 100%;
+  }
+
+  .vision-header,
+  .mission-header {
+    /* line-height: 64px; */
+    padding-top: 20px;
+  }
+
+  .missionvisionpic {
+    height: "100%";
+    width: "100%";
+  }
+
+  .missionvisionpic img {
+    width: 100%;
+    height: 602;
+  }
+
+  .vision-content,
+  .mission-content {
+    line-height: 28px;
+    text-align: center;
+    padding: 0 50px;
+  }
+
+  .icon-position {
+    position: fixed;
+    bottom: 40px;
+    right: 25px !important;
+    z-index: 20;
+  }
+
+  footer {
+    height: 400px;
+  }
+}
